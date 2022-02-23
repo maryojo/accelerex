@@ -1,0 +1,54 @@
+body{
+  background-image: url("imagee.jpg");
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  color: white;
+  
+}
+
+.navoptions{
+  list-style-type: none;
+}
+
+ul li{
+  display: inline-block;
+}
+
+li{
+  margin-left: 10px;
+}
+
+.nav{
+  /* position: relative; */
+  float: right;
+  margin-right: 2rem;
+}
+
+.red{
+  background-color: rgba(255, 60, 0, 0.932);
+  color:white;
+}
+
+.info{
+  position:absolute;
+  top: 40%;
+  margin-left: 2rem;
+  width: 23rem;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.subtitle{
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+button{
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
